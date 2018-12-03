@@ -1,0 +1,16 @@
+.jumbotron{
+    background: url(https://images.pexels.com/photos/955470/pexels-photo-955470.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center 10%;
+    background-size: cover;
+    color: white;
+    text-shadow: .5em .5em .5em black;
+    text-align: center 
+
+}
+
+.display4{
+    font-family: var( --font-one);
+}
+
+.lead{
+    font-family: var(--font-two);
+}

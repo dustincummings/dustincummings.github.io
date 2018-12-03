@@ -6,11 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Dustin Cummings</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Monoton|Noto+Sans+SC" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head> 
 <body>
  <!--NavBar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">Dustin Cummings</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -19,11 +20,14 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
+            <li class="nav-item">
+                    <a class="nav-link" href="#project">Projects</a>
+                  </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Dropdown
@@ -45,6 +49,106 @@
           </form>
         </div>
       </nav>
+
+ <!--Header-->
+ <div class="jumbotron">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+    <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  </div>
+
+ <!--About Section -->
+<section id="about"></section>
+<h1>About</h1>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+ <!--Project Section-->
+ <section id="project"><section>
+    <h1>Project</h1>   
+    <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+ <!--contact section-->
+ <section id="contact">
+
+     <h1>Contact</h1>
+     <div class="container">
+            <h2 class="text-center text-uppercase">Contact Me</h2>
+            <div class="row">
+              <form action="https://formspree.io/dustincummings15@gmail.com" method="POST">
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Name</label>
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Your Name"
+                      id="name"
+                      required
+                      data-validation-required-message="Please enter your name"
+                      name="name"
+                      >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <label>Email Address</label>
+                    <input
+                      type="email"
+                      class="form-control"
+                      placeholder="Your Email"
+                      id="email"
+                      required
+                      data-validation-required-message="Please enter your email"
+                      name="_replyto"
+                    >
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="control-group">
+                  <div class="form-group">
+                    <textarea
+                      class="form-control"
+                      rows="7"
+                      placeholder="Your Message"
+                      id="message"
+                      required
+                      data-validation-required-message="Please leave a message"
+                      name="message"
+                    ></textarea>
+                    <p class="help-block text-danger"></p>
+                  </div>
+                </div>
+                <div class="text-center">
+                  <div id="success"></div>
+                  <button type="submit" class="btn btn-lg btn-black">
+                    <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+</section>
+
+ <!--Footer section-->
+<footer></footer>
 
  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
