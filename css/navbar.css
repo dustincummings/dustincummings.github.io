@@ -1,0 +1,14 @@
+nav{
+    background: var(--orange);
+    margin: 2em;
+
+}
+
+.nav-item a{
+    color: white;
+    font-family: var(--font-one);
+}
+
+.navbar-brand{
+    font-family: var(--font-two);
+}

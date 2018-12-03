@@ -1,0 +1,11 @@
+:root{
+    --red: #EF0000;
+    --orange:#f98500;
+    --yellow:#EFEF00;
+    --blue: #08647E;
+    --limegreen: #71BB06;
+    
+    --font-one:'Arvo', serif;
+    --font-two: 'Monoton', cursive;
+    --font-three: 'Noto Sans SC', sans-serif;
+}
