@@ -1,7 +1,11 @@
 nav{
     background: var(--orange);
-    margin: 2em;
-
+position: fixed top;
+}
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 .nav-item a{
@@ -9,6 +13,10 @@ nav{
     font-family: var(--font-one);
 }
 
+
+
 .navbar-brand{
-    font-family: var(--font-two);
+    font-family: var(--font-three);
+    color: black;
+    font-weight: bolder;
 }
