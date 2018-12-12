@@ -1,5 +1,5 @@
 nav{
-    background: var(--orange);
+    background: var(--blue);
     padding: 0;
     z-index: 100;
 
@@ -8,6 +8,9 @@ nav{
     position: fixed;
     width: 100%;
     top: 0;
+}
+.navbar-light .navbar-brand{
+  color: var(--orange);
 }
 
 .nav-item a{
@@ -19,13 +22,13 @@ nav{
 
 .navbar-brand{
     font-family: var(--font-three);
-    color: black;
+    color: var(--green);
     font-weight: bolder;
     
 }
 /* Dropdown Button */
 .dropbtn {
-    background-color: black;
+    background-color:var(--orange);
     color: white;
     padding: 16px;
     font-size: 16px;
