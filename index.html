@@ -111,8 +111,8 @@
  <!--About Section -->
 <section id="about" >
 
-  <h1>About</h1>
-  <p>I am from the Indianapolis area. I worked at the Dick's Sporting Goods Distribution Center in Plainfield, IN for 15 years. I held many different roles while at Dick's Sporting Goods with my last role being a supervisor. 
+  <h1><strong>About Me </strong></h1>
+  <p><b>I am from the Indianapolis area. I worked at the Dick's Sporting Goods Distribution Center in Plainfield, IN for 15 years. I held many different roles while at Dick's Sporting Goods with my last role being a supervisor. </b></p>
     <br>
     <br>
     
@@ -121,17 +121,92 @@
 
  <!--Project Section-->
  <section id="project"><section>
-    <h1>Project</h1>   
+    <h1><strong> Projects I've Done </strong></h1>   
     <br>
-        <br>
-        <br>
-        <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+      <div class="column">
+        <img src="./assests/img/CSS Creature.png" class="image"  style="width:100%">
+        <div class="overlay"><div class="text">CSS Deadpool: This was my first attempt at any coding. HTML and CSS were the only coding languages used. Click  <a href="https://codepen.io/dustycummings/pen/vVMPOJ" target="blank">here</a> to bring up project.</div></div>
+      </div>
+      <div class="column">
+        <img src="./assests/img/Static Store Front.png" class="image" style="width:100%">
+            <div class="overlay">
+              <div class="text">Static webpage: This was my first attempt at any type of webpage. HTML and CSS were the only coding languages used for this project. Click<a href=" https://dustincummings.github.io/Comic-Book-Super-Store/" target="blank"> here </a> to view the static webpage.  </div>
+          </div>
+        </div>
+          <div class="column">
+            <img src="./assests/img/CSS Creature.png" class="image" style="width:100%">
+            <div class="overlay"><div class="text">ASP .NET Application: This website has 3 tables that flow with each other. HTML,CSHTML,RAZOR, and very little JavaScript was used. Click<a href="" target="blank"> here</a> to view application.</div>
+          </div>
+          </div>
+        </div>
         <br>
 
  <!--contact section-->
  <section id="contact">
+<h1><strong>Contact Information</strong></h1>
 
-     
+<div class="container" id="">
+    <h2 class="text-center text-uppercase" id="email">Contact Me</h2>
+    <div class="row">
+      <form action="https://formspree.io/dustincummings15@gmail.com" method="POST">
+        <div class="control-group">
+          <div class="form-group">
+            <label>Name</label>
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name"
+              id="name"
+              required
+              data-validation-required-message="Please enter your name"
+              name="name"
+              >
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <label>Email Address</label>
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email"
+              id="email"
+              required
+              data-validation-required-message="Please enter your email"
+              name="_replyto"
+            >
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="control-group">
+          <div class="form-group">
+            <textarea
+              class="form-control"
+              rows="7"
+              placeholder="Your Message"
+              id="message"
+              required
+              data-validation-required-message="Please leave a message"
+              name="message"
+            ></textarea>
+            <p class="help-block text-danger"></p>
+          </div>
+        </div>
+        <div class="text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-lg btn-black">
+            <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+            Send Message
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
                       
      <br>
      <br>
