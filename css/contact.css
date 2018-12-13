@@ -1,8 +1,8 @@
 #contact{
 text-align: center;
-padding-top: 50px;
+padding-top: 3.5em;
+padding-bottom:1em; 
 background-color: var(--green);
 margin: 0;
 }
-
 

@@ -8,8 +8,9 @@
   <title>Dustin Cummings</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4..0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/font-awesome/4..0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Arvo|Monoton|Noto+Sans+SC" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="./css/main.css">
 </head>
 
@@ -25,6 +26,7 @@
         <a href="#about">About</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
+        <a href="#">Resume</a>
       </div>
     </div>
 
@@ -38,7 +40,7 @@
     <p class="lead">.NET DEVELOPER</p>
     <!-- <hr class="my-4"> -->
     <p></p>
-
+    <button href="#" id="resumeBtn">Resume</button>
     <!-- Trigger/Open The Modal -->
     <button id="myBtn">Contact Me</button>
 
@@ -139,89 +141,90 @@
       </div>
     </div>
   </section>
+  
   <!--contact section-->
   <section id="contact">
 
     <h1><strong>Contact Options</strong></h1>
 
-    <div class="btn contactButton">
-        <ul class="list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/dustin-cummings/" target="blank">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-linkedin fa-1x" style="color:white"></i>
-              </span></a>
-          </li>
-          <li>
-            <a href="https://github.com/dustincummings" target="blank">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-github fa-1x" style="color:white"></i>
-              </span></a>
-          </li>
-          <li>
-            <a href="" target="blank">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-file-text fa-1x" style="color:white"></i>
-              </span></a>
-          </li>
-        </ul>
-      </div>
-    </div>
-
+    
     <div class="container">
-
       <div class="row">
-
+        <!-- Picture -->
         <div class="col-lg-4 contactPhoto">
-          <!-- <img src="" /> -->
+          <img src="" />
+          <div class="btn contactButton">
+              <ul class="list-inline">
+                <li>
+                  <a href="https://www.linkedin.com/in/dustin-cummings/" target="blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-linkedin fa-1x" style="color:white"></i>
+                    </span></a>
+                </li>
+                <li>
+                  <a href="https://github.com/dustincummings" target="blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-github fa-1x" style="color:white"></i>
+                    </span></a>
+                </li>
+                <li>
+                  <!-- Resume -->
+                  <a href="" target="blank">
+                    <span class="fa-stack fa-2x">
+                      <i class="fa fa-file-text fa-1x" style="color:white"></i>
+                    </span></a>
+                </li>
+              </ul>
+            </div>
         </div>
-
-
-
+        <div class="col-lg-8" id="">
+          <form action="https://formspree.io/dustincummings15@gmail.com" method="POST">
+            <div class="control-group">
+              <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Your Name" id="name" required
+                  data-validation-required-message="Please enter your name" name="name">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" class="form-control" placeholder="Your Email" id="email" required
+                  data-validation-required-message="Please enter your email" name="_replyto">
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="control-group">
+              <div class="form-group">
+                <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
+                  data-validation-required-message="Please leave a message" name="message"></textarea>
+                <p class="help-block text-danger"></p>
+              </div>
+            </div>
+            <div class="text-center">
+              <div id="success"></div>
+              <button type="submit" class="btn btn-lg btn-black">
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                Send Message
+              </button>
+            </div>
+          </form>
       </div>
 
-      <div class="col-lg-8" id="">
-
-        <form action="https://formspree.io/dustincummings15@gmail.com" method="POST">
-          <div class="control-group">
-            <div class="form-group">
-              <label>Name</label>
-              <input type="text" class="form-control" placeholder="Your Name" id="name" required
-                data-validation-required-message="Please enter your name" name="name">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group">
-              <label>Email Address</label>
-              <input type="email" class="form-control" placeholder="Your Email" id="email" required
-                data-validation-required-message="Please enter your email" name="_replyto">
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="control-group">
-            <div class="form-group">
-              <textarea class="form-control" rows="7" placeholder="Your Message" id="message" required
-                data-validation-required-message="Please leave a message" name="message"></textarea>
-              <p class="help-block text-danger"></p>
-            </div>
-          </div>
-          <div class="text-center">
-            <div id="success"></div>
-            <button type="submit" class="btn btn-lg btn-black">
-              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
-              Send Message
-            </button>
-          </div>
-        </form>
 
       </div>
     </div>
 
   </section>
-
   <!--Footer section-->
-  <footer></footer>
+  <footer>
+    <div class="container-footer">
+      <span>&copy;
+        <b>2018 Dustin Cummings</b>
+      </span>
+    </div>
+  </footer>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
