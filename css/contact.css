@@ -5,4 +5,17 @@ padding-bottom:1em;
 background-color: var(--green);
 margin: 0;
 }
-
+contactPhoto img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0px -19px;
+    overflow: hidden;
+}
+.contactButton li{
+    padding-right: 63px;
+}
+i:hover{
+color: black;
+}
