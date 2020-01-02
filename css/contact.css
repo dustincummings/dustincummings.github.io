@@ -5,7 +5,7 @@ padding-bottom:1em;
 background-color: var(--green);
 margin: 0;
 }
-contactPhoto img{
+.contactPhoto img{
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -13,8 +13,16 @@ contactPhoto img{
     object-position: 0px -19px;
     overflow: hidden;
 }
+.contactButton img {
+    object-fit: fill;
+    overflow: hidden;
+    width: 30px;
+    height: 30px; }
 .contactButton li{
-    padding-right: 63px;
+    padding-right: 6px;
+}
+.list-inline li{
+    display: inline-block;
 }
 i:hover{
 color: black;
