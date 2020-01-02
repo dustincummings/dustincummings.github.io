@@ -17,7 +17,8 @@ margin: 0;
     object-fit: fill;
     overflow: hidden;
     width: 30px;
-    height: 30px; }
+    height: 30px; 
+}
 .contactButton li{
     padding-right: 6px;
 }
